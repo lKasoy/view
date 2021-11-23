@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <com.example.view.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        custom:lineWidth="40dp"
+        custom:paintColor="@color/aqua"
+        custom:radiusRounding="40dp" />
+
+    <com.example.view.CustomLinearLayout
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:aTextSize="18sp"
+        custom:aBackgroundColor="@color/color1"
+        custom:aTextColor="@color/color2"
+        custom:aPadding="4dp"/>
+</LinearLayout>

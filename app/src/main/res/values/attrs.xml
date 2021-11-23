@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="radiusRounding" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="paintColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomLinearLayout">
+        <attr name="aTextSize" format="dimension"/>
+        <attr name="aTextColor" format="color" value="#ffffff"/>
+        <attr name="aBackgroundColor" format="color" value="#000000"/>
+        <attr name="aPadding" format="dimension"/>
+    </declare-styleable>
+</resources>
