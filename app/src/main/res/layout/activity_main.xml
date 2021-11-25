@@ -8,10 +8,10 @@
     <com.example.view.CustomView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:padding="2dp"
-        custom:lineWidth="10dp"
+        android:padding="4dp"
+        custom:lineWidth="40dp"
         custom:paintColor="@color/aqua"
-        custom:radiusRounding="25dp" />
+        custom:radiusRounding="10dp" />
 
     <com.example.view.CustomLinearLayout
         android:id="@+id/customLinearLayout"
